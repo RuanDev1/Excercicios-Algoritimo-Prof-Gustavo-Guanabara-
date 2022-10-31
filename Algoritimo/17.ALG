@@ -1,24 +1,24 @@
 Algoritmo "17"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Gustavo Guanabara
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Ruan Rodrigues
 // Data atual  : 07/09/2022
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    V,Multa,MultaKm:Inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    Escreval("--------------------")
    Escreval("Multa Transito DevRuan")
    Escreval("---------------------")
    Escreva("Qual sua Velocidade: ")
    Leia(V)
    Multa  <- V - 80
-   MultaKm <- V * 5
+   MultaKm <- Multa * 5
    Se (V > 80) entao
-      Escreval("Você foi multado Com a velocidade acima do Permitido!")
+      Escreval("VocÃª foi multado Com a velocidade acima do Permitido!")
       Escreval(" com valor [R$]: ",Multakm )
    FimSe
 Fimalgoritmo
